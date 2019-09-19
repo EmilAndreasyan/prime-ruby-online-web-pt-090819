@@ -1,17 +1,12 @@
 # Add  code here!
 
 def prime?(num)
-n = 2
-while n < num
-if num % n != 0
-n += 1
-return true
-elsif
-num == -1
-return false
-else
-return false
+  n = 2
+  while n < num
+    return false if num % n == 0
+    n += 1
+  end
+  true
 end
-end
-end
-prime?(-1)
+
+prime?(2)
