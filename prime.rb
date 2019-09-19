@@ -1,5 +1,4 @@
 # Add  code here!
-
 def prime?(num)
   n = 2
   while n < num
@@ -7,6 +6,10 @@ def prime?(num)
     n += 1
   end
   true
-end
+  if
+   num < 0
+  false
+  end
+  end
 
-prime?(2)
+prime?(5)
